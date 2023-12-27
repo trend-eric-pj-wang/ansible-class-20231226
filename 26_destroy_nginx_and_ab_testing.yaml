@@ -1,6 +1,6 @@
 ﻿---
 - name: Stop and remove Nginx containers, images and volumes
-  hosts: lnode01
+  hosts: lnode02
   become: true
   vars:
     nginx_image: nginx:latest
